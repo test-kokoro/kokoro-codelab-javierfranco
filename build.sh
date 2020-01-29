@@ -20,3 +20,5 @@ set -e
 
   npm i
   npm run babel
+
+#test comment to run build
