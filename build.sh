@@ -12,8 +12,11 @@ set -e
 #  parameters, will print the full command, with credentials, in the build logs.
 # set -x
 
-if [ "$1" == "release" ]; then
-  javac -g:none Hello.java
-else
-  javac Hello.java
-fi
+# if [ "$1" == "release" ]; then
+#   javac -g:none Hello.java
+# else
+#   javac Hello.java
+# fi
+
+npm i
+npm run babel
