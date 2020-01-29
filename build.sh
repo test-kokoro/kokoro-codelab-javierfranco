@@ -18,5 +18,10 @@ set -e
 #   javac Hello.java
 # fi
 
-npm i
-npm run babel
+if [ "$1" == "release" ]; then
+  npm i
+  npm run babel
+else
+  npm i
+  npm run babel
+fi
